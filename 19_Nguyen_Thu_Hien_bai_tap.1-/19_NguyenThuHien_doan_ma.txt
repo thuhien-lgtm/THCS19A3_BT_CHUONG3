@@ -1,0 +1,476 @@
+*Noi dung readme.rm
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap
+$ git clone https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap..git
+fatal: could not create work tree dir '19_Nguyen_Thu_Hien_bai_tap.': Invalid arg
+ument
+
+*Noi dung bai2
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git add .
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git commit -m "Cap nhat file readme.md"
+[main 8a3dfd1] Cap nhat file readme.md
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 630 bytes | 630.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+   8ce7e15..8a3dfd1  main -> main
+
+*Noi dung bai3
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git add text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git commit -m "Them file cho branch 1"
+[branch_1 9386c40] Them file cho branch 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 358 bytes | 358.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-/pull/
+new/branch_1
+remote:
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ * [new branch]      branch_1 -> branch_1
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_2)
+$ git add text_branch_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_2)
+$ git commit -m "Them file cho branch 2"
+[branch_2 2232964] Them file cho branch 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-/pull/
+new/branch_2
+remote:
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ * [new branch]      branch_2 -> branch_2
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3)
+$ git add text_branch_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3)
+$ git commit -m "Them file cho branch 3"
+[branch_3 1d5afd5] Them file cho branch 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 361 bytes | 180.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-/pull/
+new/branch_3
+remote:
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ * [new branch]      branch_3 -> branch_3
+git checkout main
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_4)
+$ git add text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_4)
+$ git commit -m "Them file cho branch 4"
+[branch_4 52232a8] Them file cho branch 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-/pull/
+new/branch_4
+remote:
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ * [new branch]      branch_4 -> branch_4
+
+*Noidungbai4
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch --delete branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+  branch_4
+* main
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/main
+
+*Noi dung bai5
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 962 bytes | 87.00 KiB/s, done.
+From https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-
+   8a3dfd1..74f0330  main       -> origin/main
+Updating 8a3dfd1..74f0330
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ cat readme.md
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+Day la noi dung cho Bai 5.
+
+*Noi dung bai6
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3|MERGING)
+$ git checkout main
+D       main_folder/main_txt_1.txt
+D       main_folder/main_txt_2.txt
+D       main_folder/main_txt_3.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ mkdir main_folder
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ echo "Noi dung file main 1" > main_folder/main_txt_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ echo "Noi dung file main 2" > main_folder/main_txt_2.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ echo "Noi dung file main 3" > main_folder/main_txt_3.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git add .
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git commit -m "Them main_folder vao nhanh main"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git push origin main
+Everything up-to-date
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git pull origin main
+From https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git push origin branch_1
+Everything up-to-date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E325: ATTENTION
+Found a swap file by the name "~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1-/.g
+it/.MERGE_MSG.swp"
+          owned by: Admin   dated: Wed Oct 22 22:25:20 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-
+ * branch            main       -> FETCH_HEAD
+error: there was a problem with the editor 'vi'
+Not committing merge; use 'git commit' to complete the merge.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3|MERGING)
+$ git push origin branch_3
+Everything up-to-date
+
+*Noi dung bai7
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_3|MERGING)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_5)
+$ git add text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_5)
+$ git commit -m "Cap nhat noi dung text_branch_1.txt o branch_5"
+[branch_5 4165580] Cap nhat noi dung text_branch_1.txt o branch_5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 664 bytes | 332.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-/pull/
+new/branch_5
+remote:
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ * [new branch]      branch_5 -> branch_5
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 4165580).
+
+*Noi dung bai8
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch --delete branch_2
+error: the branch 'branch_2' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_2'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git push origin --delete branch_2
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ - [deleted]         branch_2
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch --delete branch_3
+error: the branch 'branch_3' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_3'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git push origin --delete branch_3
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ - [deleted]         branch_3
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git branch --delete branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git push origin --delete branch_4
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+ - [deleted]         branch_4
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git pull origin main
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (7/7), 3.79 KiB | 161.00 KiB/s, done.
+From https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-
+ * branch            main       -> FETCH_HEAD
+   b91fe82..0dd2abd  main       -> origin/main
+Updating 622da19..0dd2abd
+Fast-forward
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-.git
+   622da19..0dd2abd  branch_1 -> branch_1
+
+*Noi dung bai9
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/Desktop/hoctap/19_Nguyen_Thu_Hien_bai_tap.1- (main)
+$ git pull origin main
+From https://github.com/thuhien-lgtm/19_Nguyen_Thu_Hien_bai_tap.1-
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+
+
+
+
